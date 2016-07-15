@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/xaviervia/a-sweet-lib#readme",
   "devDependencies": {
+    "flowtype-interfaces-sagui": "^0.1.0",
     "sagui": "^6.3.0-rc.0"
   }
 }

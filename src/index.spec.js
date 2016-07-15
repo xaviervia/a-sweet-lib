@@ -1,5 +1,5 @@
-describe('a-sweet-lib', function () {
-  it('should work', function () {
+import compose from './a-compose/example'
 
-  })
+describe('a-sweet-lib', function () {
+  it('compose', compose)
 })
