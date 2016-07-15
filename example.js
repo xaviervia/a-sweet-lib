@@ -1,5 +1,5 @@
 import example from 'washington'
-import compose from './compose/example'
+import compose from './a-compose/example'
 
 example('compose', compose)
 
