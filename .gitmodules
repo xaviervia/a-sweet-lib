@@ -1,6 +1,0 @@
-[submodule "compose"]
-	path = compose
-	url = git@gist.github.com:edd5c19d26dc32b3936673175c383b9f.git
-[submodule "a-compose"]
-	path = a-compose
-	url = git@gist.github.com:edd5c19d26dc32b3936673175c383b9f.git
