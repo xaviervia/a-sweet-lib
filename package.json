@@ -1,0 +1,32 @@
+{
+  "name": "a-sweet-lib",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sagui build",
+    "develop": "sagui develop --port 3000",
+    "dist": "cross-env NODE_ENV=production sagui build --optimize",
+    "start": "npm run develop",
+    "test": "npm run test:lint && npm run test:typecheck && npm run test:unit",
+    "test:coverage": "npm run test:unit -- --coverage",
+    "test:lint": "sagui lint",
+    "test:typecheck": "sagui typecheck",
+    "test:unit": "cross-env NODE_ENV=test sagui test",
+    "test:unit:watch": "npm run test:unit -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xaviervia/a-sweet-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xaviervia/a-sweet-lib/issues"
+  },
+  "homepage": "https://github.com/xaviervia/a-sweet-lib#readme",
+  "devDependencies": {
+    "sagui": "^6.3.0-rc.0"
+  }
+}
