@@ -10,3 +10,6 @@
 [submodule "src/an-always"]
 	path = src/an-always
 	url = git@gist.github.com:34cb8721bc558a620ddecbc32d25fee9.git
+[submodule "src/a-reduce"]
+	path = src/a-reduce
+	url = git@gist.github.com:dffb3318371846e6c5f3989369d1c265.git
