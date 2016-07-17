@@ -3,11 +3,13 @@
 .*/package.json
 .*/src/a-site/.*
 .*/sagui.config.js
+.*/index.js
 
 [include]
 
 [libs]
 node_modules/flowtype-interfaces-sagui/interfaces/
+interface.js
 
 [options]
 module.system=haste
