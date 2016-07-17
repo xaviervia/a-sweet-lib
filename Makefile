@@ -1,7 +1,10 @@
-.PHONY: dist gh-pages
+.PHONY: dist gh-pages submodules
 
 dist:
 	npm run dist
+
+submodules:
+	git submodule update
 
 gh-pages:
 	git reset --hard origin/master

@@ -54,7 +54,7 @@
       width: 60rem;
     }
 
-    h1, h2 {
+    h1, h3 {
       font-weight: 400;
     }
 
@@ -76,19 +76,41 @@
       text-align: center;
     }
 
+    section h2 {
+      font-size: 1rem;
+      margin: 8rem 0 -6rem 0;
+      text-transform: uppercase;
+    }
+
+    section h2 a {
+      color: #CCCCCC;
+      display: inline-block;
+      letter-spacing: 1px;
+      position: relative;
+      text-decoration: none;
+    }
+
+    section h2 a:hover:before {
+      color: #CCCCCC;
+      content: '§';
+      display: block;
+      position: absolute;
+      left: -1rem;
+    }
+
     article {
       display: block;
       margin-top: 8rem;
     }
 
-    article h2 {
+    article h3 {
       font-size: 2rem;
       margin: 0;
       padding: 0 0 2rem 0;
       position: relative;
     }
 
-    article h2 a {
+    article h3 a {
       border-bottom: 1px solid black;
       color: black;
       display: inline-block;
@@ -98,11 +120,11 @@
       text-decoration: none;
     }
 
-    article h2 a:hover {
+    article h3 a:hover {
       border-bottom: none;
     }
 
-    article h2 a:hover:before {
+    article h3 a:hover:before {
       color: #CCCCCC;
       content: '§';
       display: block;
@@ -150,24 +172,43 @@
     </header>
 
     <main id='main'>
-      <article>
-        <h2 id='compose'>
-          <a href='#compose'>compose</a>
+      <section id='higher-order-functions'>
+        <h2>
+          <a href='#higher-order-functions'>Higher order functions</a>
         </h2>
-        <script
-        src='https://gist.github.com/xaviervia/edd5c19d26dc32b3936673175c383b9f.js'></script>
-      </article>
 
-      <article>
-        <h2 id='map'>
-          <a href='#map'>map</a>
+        <article>
+          <h3 id='compose'>
+            <a href='#compose'>compose</a>
+          </h3>
+          <script
+          src='https://gist.github.com/xaviervia/edd5c19d26dc32b3936673175c383b9f.js'></script>
+        </article>
+
+        <article>
+          <h3 id='map'>
+            <a href='#map'>map</a>
+          </h3>
+          <script src="https://gist.github.com/xaviervia/af35d6cf55ae11a0d91bb58807a46156.js"></script>
+        </article>
+      </section>
+
+      <section id='basic-functions'>
+        <h2>
+          <a href='#basic-functions'>Basic functions</a>
         </h2>
-        <script src="https://gist.github.com/xaviervia/af35d6cf55ae11a0d91bb58807a46156.js"></script>
-      </article>
+
+        <article>
+          <h3 id='identity'>
+            <a href='#identity'>identity</a>
+          </h3>
+          <script src="https://gist.github.com/xaviervia/5804a4147a7c561dcadd8c97adac7eaf.js"></script>
+        </article>
+      </section>
     </main>
 
     <footer>
-      <h2>What is this?</h2>
+      <h3>What is this?</h3>
       <em>A Sweet Lib</em> gives you the building blocks for a functional programming approach in JavaScript.
       <ul>
         <li>Only higher order functions</li>
@@ -175,7 +216,7 @@
         <li>Only essential functions, the building blocks. More domain specific ones you can derive yourself</li>
       </ul>
 
-      <h2>Why building this?</h2>
+      <h3>Why building this?</h3>
       <p>There is still space in the ecosystem for a library that takes the middle way between the hard core ones that offer to completely change your programming style with a hard core functional approach (such as Ramda) and the ones that just provide solutions to common problems without actually offering any philosophy accompanying them (such as Lodash).</p>
       <p><em>A Sweet Lib</em> aims to hit the sweet spot in the middle: offer a collection of well structured functions based on an idea, but also demystifying them. There is nothing odd about <code>map</code> or <code>reduce</code> and that should be obvious. Your library should tell you that. That's what <em>A Sweet Lib</em> does. Furthermore, <em>A Sweet Lib</em> doesn't need to sit as a global, hard to get rid of dependency in your projects: you can just copy paste the snippets. That's the main purpose of why it was built.</p>
 

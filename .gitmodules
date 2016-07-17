@@ -4,3 +4,6 @@
 [submodule "src/a-map"]
 	path = src/a-map
 	url = git@gist.github.com:af35d6cf55ae11a0d91bb58807a46156.git
+[submodule "src/an-identity"]
+	path = src/an-identity
+	url = git@gist.github.com:5804a4147a7c561dcadd8c97adac7eaf.git
