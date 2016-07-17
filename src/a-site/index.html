@@ -3,11 +3,12 @@
 <head>
   <title>a-sweet-lib</title>
   <meta charset='utf-8' />
+  <link href="https://fonts.googleapis.com/css?family=Merriweather:400,400i" rel="stylesheet">
   <style>
-    html { font-size: 15px; }
+    html { font-size: 12px; }
 
     body {
-      font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+      font-family: Merriweather, serif;
       margin: 0 auto;
       width: 60rem;
     }
@@ -16,12 +17,55 @@
       font-weight: 400;
     }
 
-    h1 {
-      font-size: 2rem;
+    header {
+      display: block;
     }
 
-    h2 {
+    header h1 {
+      font-size: 4rem;
+      margin: 6rem 0 0 0;
+      text-align: center;
+    }
+
+    header p {
+      color: #CCCCCC;
       font-size: 1.5rem;
+      font-style: italic;
+      margin: 0;
+      text-align: center;
+    }
+
+    article {
+      display: block;
+      margin-top: 6rem;
+    }
+
+    article h2 {
+      font-size: 2rem;
+      margin: 0 0 2rem 0;
+      position: relative;
+    }
+
+    article h2 a {
+      border-bottom: 1px solid black;
+      color: black;
+      display: inline-block;
+      height: 1.6rem;
+      line-height: 1.6rem;
+      text-shadow: 1px 0 0 white, -1px 0 0 white;
+      text-decoration: none;
+    }
+
+    article h2 a:hover {
+      border-bottom: none;
+    }
+
+    article h2 a:hover:before {
+      color: #CCCCCC;
+      content: '§';
+      display: block;
+      position: absolute;
+      left: -2rem;
     }
   </style>
 </head>
@@ -29,6 +73,7 @@
 <body>
   <header>
     <h1>A Sweet Lib</h1>
+    <p>For JavaScript developers</p>
   </header>
 
   <main id='main'>
