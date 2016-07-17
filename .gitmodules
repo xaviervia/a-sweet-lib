@@ -7,3 +7,6 @@
 [submodule "src/an-identity"]
 	path = src/an-identity
 	url = git@gist.github.com:5804a4147a7c561dcadd8c97adac7eaf.git
+[submodule "src/an-always"]
+	path = src/an-always
+	url = git@gist.github.com:34cb8721bc558a620ddecbc32d25fee9.git
