@@ -1,4 +1,4 @@
-.PHONY: build gh-pages
+.PHONY: dist gh-pages
 
 dist:
 	npm run dist
