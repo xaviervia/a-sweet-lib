@@ -11,4 +11,4 @@ gh-pages:
 	rm -rf src
 	git add --all
 	git commit -m 'Update gh-pages'
-	git push origin gh-pages
+	git push -f origin gh-pages
