@@ -1,5 +1,7 @@
-import aCompose from './a-compose/a-compose'
+import compose from './a-compose/a-compose'
+import map from './a-map/a-map'
 
 export default {
-  compose: aCompose
+  compose,
+  map
 }

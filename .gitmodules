@@ -1,3 +1,6 @@
 [submodule "src/a-compose"]
 	path = src/a-compose
 	url = git@gist.github.com:edd5c19d26dc32b3936673175c383b9f.git
+[submodule "src/a-map"]
+	path = src/a-map
+	url = git@gist.github.com:af35d6cf55ae11a0d91bb58807a46156.git
