@@ -4,6 +4,7 @@
  */
 module.exports = {
   pages: ['a-site/index'],
+  libraries: ['index'],
 
   javaScript: {
     typeCheckAll: true
