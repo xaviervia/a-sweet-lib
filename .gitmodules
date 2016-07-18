@@ -13,3 +13,9 @@
 [submodule "src/a-reduce"]
 	path = src/a-reduce
 	url = git@gist.github.com:dffb3318371846e6c5f3989369d1c265.git
+[submodule "src/a-curry"]
+	path = src/a-curry
+	url = git@gist.github.com:e764d0694224a24617018b9dd636d9c9.git
+[submodule "src/an-arity"]
+	path = src/an-arity
+	url = git@gist.github.com:6450a38296566d5dd66015e4eb971061.git
